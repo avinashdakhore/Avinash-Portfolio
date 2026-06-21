@@ -11,7 +11,21 @@ function Projects() {
       <div className="grid md:grid-cols-2 gap-8">
 
         {/* SanDrop */}
-        <div className="bg-zinc-900 p-8 rounded-xl border border-zinc-800 hover:border-blue-500 transition">
+        <div className="
+      horizontal-float
+      bg-white/5
+      backdrop-blur-md
+      p-5
+      rounded-xl
+      border
+      border-white/10
+      transition-all
+      duration-300
+      hover:-translate-y-2
+      hover:scale-105
+      hover:border-cyan-400/50
+      hover:shadow-[0_0_25px_rgba(34,211,238,0.25)]
+    ">
 
           <h3 className="text-2xl font-bold mb-4">
             SanDrop
@@ -57,7 +71,21 @@ function Projects() {
         </div>
 
         {/* ISL Detection */}
-        <div className="bg-zinc-900 p-8 rounded-xl border border-zinc-800 hover:border-blue-500 transition">
+        <div className="
+      horizontal-float
+      bg-white/5
+      backdrop-blur-md
+      p-5
+      rounded-xl
+      border
+      border-white/10
+      transition-all
+      duration-300
+      hover:-translate-y-2
+      hover:scale-105
+      hover:border-cyan-400/50
+      hover:shadow-[0_0_25px_rgba(34,211,238,0.25)]
+    ">
 
           <h3 className="text-2xl font-bold mb-4">
             ISL Detection using CNN

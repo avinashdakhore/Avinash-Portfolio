@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="min-h-screen text-white">
+    <div className="min-h-screen bg-gradient-to-br from-slate-950 via-emerald-950 to-cyan-950 text-white">
       <Navbar />
 
       <main className="max-w-7xl mx-auto">

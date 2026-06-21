@@ -10,12 +10,23 @@ function Navbar() {
 
         <ul className="hidden md:flex gap-8 text-white">
           <li>
-  <a
-    href="#about"
-    className="hover:text-blue-400 transition"
-  >
-    About
-  </a>
+ <a
+  href="#about"
+  className="
+    relative
+    after:absolute
+    after:left-0
+    after:bottom-[-4px]
+    after:w-0
+    after:h-[2px]
+    after:bg-violet-400
+    after:transition-all
+    after:duration-300
+    hover:after:w-full
+  "
+>
+  About
+</a>
 </li>
 
 <li>

@@ -42,7 +42,15 @@ function Certificates() {
         {Certificates.map((cert, index) => (
           <div
             key={index}
-            className="bg-zinc-900 p-8 rounded-xl border border-zinc-800 hover:border-blue-500 transition"
+            className="
+            float-card
+            bg-white/5
+            backdrop-blur-md
+            p-8
+            rounded-2xl
+            border
+            border-white/10
+          "
           >
             <h3 className="text-2xl font-semibold mb-2">
               {cert.title}

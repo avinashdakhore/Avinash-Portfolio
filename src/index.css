@@ -1,5 +1,58 @@
 @import "tailwindcss";
 
+
+@keyframes floatCard {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0px); }
+}
+
+.float-card {
+  animation: floatCard 5s ease-in-out infinite;
+}
+
+.skill-float {
+  animation: horizontalFloat 4s ease-in-out infinite;
+}
+
+
+@keyframes horizontalFloat {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(12px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.horizontal-float {
+  animation: horizontalFloat 4s ease-in-out infinite;
+}
+
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.float-animation {
+  animation: float 4s ease-in-out infinite;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -22,4 +75,16 @@ body {
     #020617;
 
   color: white;
+}
+
+.float-card {
+  transition: all 0.35s ease;
+}
+
+.float-card:hover {
+  transform: translateY(-10px);
+  border-color: rgba(135, 153, 183, 0.5);
+  box-shadow:
+    0 0 20px rgba(142, 168, 211, 0.15),
+    0 0 40px rgba(140, 171, 221, 0.1);
 }
